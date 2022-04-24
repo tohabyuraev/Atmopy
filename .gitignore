@@ -1,0 +1,15 @@
+﻿# Игнор файлы для Python
+__pycache__
+
+# Игнор файлы build C (C++)
+build/
+*.o
+*.so
+*.dll
+
+# Игнор файлы обработки
+*.txt
+*.zip
+
+# Исключения
+!CMakeLists.txt
