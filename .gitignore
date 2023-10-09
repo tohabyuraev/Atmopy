@@ -1,5 +1,6 @@
 ﻿# Игнор файлы для Python
 __pycache__
+.venv
 
 # Игнор файлы build C (C++)
 build/
@@ -10,6 +11,9 @@ build/
 # Игнор файлы обработки
 *.txt
 *.zip
+
+# Игнор файлы источники
+*.pdf
 
 # Исключения
 !CMakeLists.txt
